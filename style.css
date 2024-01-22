@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.bg{
+    background-image: url(/components/bgg.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    color: white;
+}
+
+@media (max-width: 2660px) {
+    .bg,body {
+        background-size: 100% 100%; /* Adjust the background size for mobile */
+        width: 100%;
+    }
+}
+.navbar{
+    
+    border-bottom: 1px solid rgb(244, 9, 244);
+}
+.btn{
+    border: none;
+    
+}
+.navbar-toggler{
+    color: white;
+    background-color: white;
+}
+.navbar-brand,.size{
+    font-weight: 600;
+}
+.nav-link{
+    font-weight: 600;
+}
+body{
+    background-image: url(/components/bgg.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    color: white;
+   
+}
