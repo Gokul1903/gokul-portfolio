@@ -4,11 +4,13 @@
 
 
 .bg{
-    background-image: url(/components/bgg.jpg);
+    background-image: url(./components/bgg.jpg);
     background-size: cover;
     
     background-repeat: no-repeat;
     color: white;
+    background-color: black;
+
 }
 
 @media (max-width: 2660px) {
@@ -36,10 +38,10 @@
     font-weight: 600;
 }
 body{
-    background-image: url(/components/bgg.jpg);
+    background-image: url(./components/bgg.jpg);
     background-size: cover;
     
     background-repeat: no-repeat;
     color: white;
-   
+    background-color: black;
 }
